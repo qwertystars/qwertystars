@@ -1,50 +1,103 @@
-<!-- Profile Header -->
-<h1 align="center">Hi, I'm Srijan Guchhait 👋</h1>
-<h3 align="center">Engineering Student | VIT Chennai | Tech Enthusiast</h3>
+<!--
+  README.md for GitHub Profile
+  Repo name MUST exactly match your GitHub username to render on your profile.
+-->
 
----
-
-<!-- About Me Section -->
-## 👨‍💻 About Me
-- 🎓 Pursuing **Engineering at Vellore Institute of Technology, Chennai**  
-- 💡 Interested in **Software Development, System Design, and Electronics**  
-- ⚡ Passionate about **open-source, problem-solving, and building impactful projects**  
-- 🌱 Currently learning **Linux, Cloud Computing, and Advanced Algorithms**  
-
----
-
-<!-- Tech Stack Section -->
-## 🛠️ Tech Stack
-
-**Languages**  
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
-
-**Tools & Frameworks**  
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)  
-
----
-
-<!-- GitHub Stats -->
-## 📊 GitHub Stats
+<!-- ========================== HEADER ========================== -->
+<h1 align="center">Srijan Guchhait</h1>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=qwertystars&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwertystars&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+  <strong>Engineering @ VIT Chennai · Systems-minded Developer</strong><br/>
+  Building reliable software with first-principles thinking and disciplined execution.
+</p>
+
+<p align="center">
+  <a href="https://github.com/SrijanGuchhait?tab=followers">
+    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/SrijanGuchhait?label=Followers&logo=github">
+  </a>
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=SrijanGuchhait">
+    <img alt="Profile Views" src="https://visitor-badge.laobi.icu/badge?page_id=SrijanGuchhait">
+  </a>
+  <a href="mailto:YOUR_EMAIL@example.com">
+    <img alt="Email" src="https://img.shields.io/badge/Contact-Email-informational">
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue">
+  </a>
 </p>
 
 ---
 
-<!-- Connect Section -->
-## 🌐 Connect With Me
-<p align="left">
-  <a href="https://www.linkedin.com/in/srijan-guchhait-200572288" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:srijan.guchhait@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+<!-- ========================== ABOUT ========================== -->
+## About
+I blend strong fundamentals with practical delivery. My academic grounding in engineering is matched by hands-on work across Linux, low-level tooling, and pragmatic systems design. Bias for clarity, operational rigor, and maintainability. No theatrics—just outcomes.
+
+### Currently Learning
+I’m going deep on advanced Linux internals, modern C++ idioms, and scalable system design. In lockstep, I’m refining containerization practices, cloud-native workflows, and performance tuning for distributed environments. Objective: working mastery that translates directly into dependable, efficient software.
+
+---
+
+<!-- ========================== CAPABILITIES ========================== -->
+## Core Competencies
+- **Languages:** C, C++, Python, Java
+- **Platforms:** Arch Linux, Ubuntu, Docker, Podman
+- **Practices:** GitOps, CI/CD, Observability, Testing Strategy, Code Quality
+- **Domains:** Systems Programming, Tooling, Automation, OS Concepts
+
+<p>
+  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=flat" />
+  <img src="https://img.shields.io/badge/Arch-1793D1?logo=arch-linux&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat" />
 </p>
 
 ---
 
-<p align="center">✨ Always exploring, always building. ✨</p>
+<!-- ========================== HIGHLIGHTS ========================== -->
+## Delivery Highlights
+- **Linux Environment Optimization:** Automated bootstrap for dev environments (shell, packages, dotfiles) with reproducible scripts and rollback.
+- **Tooling & CLI:** Built focused utilities to streamline workflows (filesystems, process management, Git hygiene).
+- **Systems Foundations:** Prototyped components with attention to memory, concurrency, and I/O paths.
 
+> For me, technology isn’t just about writing code—it’s about building systems that stand up under scale, change, and scrutiny.
+
+---
+
+<!-- ========================== PROJECTS ========================== -->
+## Selected Projects
+- **dev-bootstrap** — Reproducible Linux workstation setup (idempotent, minimal, fast).
+- **fs-utils** — Small C/C++ utilities for Btrfs/ZFS-adjacent workflows and diagnostics.
+- **obs-lite** — Lightweight logging/metrics patterns for sidecar-free services.
+
+> Replace the above with real repositories when ready.
+
+---
+
+<!-- ========================== METRICS ========================== -->
+## GitHub Metrics
+<p align="center">
+  <img alt="GitHub Stats" height="170"
+       src="https://github-readme-stats.vercel.app/api?username=SrijanGuchhait&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=tokyonight" />
+  <img alt="Top Languages" height="170"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrijanGuchhait&layout=compact&hide_border=true&theme=tokyonight" />
+</p>
+
+<!-- Optional Streaks (uncomment if desired)
+<p align="center">
+  <img alt="GitHub Streak" height="170"
+       src="https://streak-stats.demolab.com?user=SrijanGuchhait&hide_border=true&theme=tokyonight" />
+</p>
+-->
+
+---
+
+<!-- ========================== CONTACT ========================== -->
+## Connect
+- Email: **YOUR_EMAIL@example.com**
+- LinkedIn: **linkedin.com/in/YOUR_LINKEDIN/**
+- GitHub Discussions/Issues: Open an issue on this profile for collaboration.
+
+<p align="center"><i>Consistent. Composable. Production-minded.</i></p>
