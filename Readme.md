@@ -32,6 +32,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwertystars&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </p>  
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=qwertystars&theme=radical" height="180" />
+</p>
 ---
 
 <!-- Connect Section -->
