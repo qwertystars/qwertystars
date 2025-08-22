@@ -42,10 +42,10 @@
 <!-- Connect Section -->
 ## 🌐 Connect With Me
 <p align="left">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+  <a href="www.linkedin.com/in/srijan-guchhait-200572288" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:YOUR-EMAIL@example.com" target="_blank">
+  <a href="mailto:srijan.guchhait@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
