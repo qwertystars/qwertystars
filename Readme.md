@@ -1,15 +1,15 @@
 <!-- Profile Header -->
 <h1 align="center">Hi, I'm Srijan Guchhait 👋</h1>
-<h3 align="center">Engineering Student | VIT Chennai | Tech Enthusiast</h3>
+<h3 align="center">CSE Core Student | VIT Chennai | Tech Enthusiast</h3>
 
 ---
 
 <!-- About Me Section -->
 ## 👨‍💻 About Me
-- 🎓 Pursuing **Engineering at Vellore Institute of Technology, Chennai**  
+- 🎓 Pursuing **Computer Science and Engineering (Core) at Vellore Institute of Technology, Chennai**  
 - 💡 Interested in **Software Development, System Design, and Electronics**  
 - ⚡ Passionate about **open-source, problem-solving, and building impactful projects**  
-- 🌱 Actively learning **Google Cloud Platform (GCP), Python, C, C++, AI Training, and Docker**  
+- 🌱 Actively learning **Google Cloud Platform (GCP), Python, C, C++, Machine Learning & AI Model Development, and Docker**  
 
 ---
 
@@ -20,7 +20,7 @@
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
 
 **Tools & Frameworks**  
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)  ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)  
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)  ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)  ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=llama&logoColor=white)  ![JetBrains](https://img.shields.io/badge/JetBrains_Student_Pack-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
 
 ---
 
