@@ -76,7 +76,9 @@ i<!-- Profile Header -->
   </a>
 </p>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=qwertystars)](https://github.com/qwertystars)
+<p align="center">
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=qwertystars&theme=highcontrast" alt="GitHub Streak" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/qwertystars">
