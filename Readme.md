@@ -71,12 +71,16 @@ i<!-- Profile Header -->
 ## 📊 My GitHub Stats  
 
 <p align="center">
-  <a href="http://www.github.com/qwertystars">
+  <a href="https://www.github.com/qwertystars">
     <img src="https://github-readme-stats.vercel.app/api?username=qwertystars&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="qwertystars's GitHub stats" />
   </a>
 </p>
 
-[![GitHub Streak](https://github-readme-streak-stats-six-flax.vercel.app?user=qwertystars&theme=dark)](https://git.io/streak-stats)
+<p align="center">
+  <a href="https://www.github.com/qwertystars">
+    <img src="https://github-readme-streak-stats-six-flax.vercel.app?user=qwertystars&theme=dark" alt="GitHub Streak" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/qwertystars">
