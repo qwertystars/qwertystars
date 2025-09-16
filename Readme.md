@@ -72,7 +72,7 @@ i<!-- Profile Header -->
 
 <p align="center">
   <a href="https://www.github.com/qwertystars">
-    <img src="https://github-readme-stats.vercel.app/api?username=qwertystars&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="qwertystars's GitHub stats" />
+    <img src="https://github-readme-stats-phi-three-cuzwv4cud7.vercel.app/api?username=qwertystars&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="qwertystars's GitHub stats" />
   </a>
 </p>
 
@@ -84,7 +84,7 @@ i<!-- Profile Header -->
 
 <p align="center">
   <a href="https://github.com/qwertystars">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qwertystars&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+    <img src="https://github-readme-stats-phi-three-cuzwv4cud7.vercel.app/api/top-langs/?username=qwertystars&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
   </a>
 </p> 
 
