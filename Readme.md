@@ -76,9 +76,7 @@ i<!-- Profile Header -->
   </a>
 </p>
 
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=qwertystars&theme=highcontrast" alt="GitHub Streak" /></a>
-</p>
+[![GitHub Streak](https://github-readme-streak-stats-six-flax.vercel.app?user=qwertystars&theme=dark)](https://git.io/streak-stats)
 
 <p align="center">
   <a href="https://github.com/qwertystars">
