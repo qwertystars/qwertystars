@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijan Guchhait - Multi-Domain Developer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .poster-container {
+            width: 720px;
+            min-height: 1280px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #0a0a0a 0%, #121212 100%);
+        }
+        
+        .bg-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 20px 20px;
+            z-index: 1;
+        }
+        
+        .bg-accent {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(103, 58, 183, 0.15) 0%, rgba(103, 58, 183, 0) 70%);
+            filter: blur(80px);
+            z-index: 1;
+        }
+        
+        .bg-accent:nth-child(1) {
+            top: -200px;
+            right: -200px;
+        }
+        
+        .bg-accent:nth-child(2) {
+            bottom: -100px;
+            left: -200px;
+            background: radial-gradient(circle, rgba(0, 176, 255, 0.15) 0%, rgba(0, 176, 255, 0) 70%);
+        }
+        
+        .content {
+            position: relative;
+            z-index: 2;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(90deg, #ffffff, #a5b4fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+        
+        .hero .subtitle {
+            font-size: 24px;
+            font-weight: 500;
+            color: #a5b4fc;
+            margin-bottom: 24px;
+        }
+        
+        .hero .tagline {
+            font-size: 18px;
+            max-width: 500px;
+            margin: 0 auto 40px;
+            color: #b0b0b0;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            background: rgba(165, 180, 252, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .contact-item i {
+            font-size: 20px;
+            color: #a5b4fc;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .section-title i {
+            font-size: 32px;
+            color: #a5b4fc;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        
+        .bio {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .traits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        
+        .trait {
+            padding: 8px 16px;
+            background: rgba(165, 180, 252, 0.15);
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 24px;
+        }
+        
+        .skill-category {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .skill-category h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #a5b4fc;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .skill-item {
+            padding: 6px 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            font-size: 14px;
+        }
+        
+        .projects-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-4px);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .project-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .project-type {
+            padding: 4px 12px;
+            background: rgba(165, 180, 252, 0.15);
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .project-description {
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: #b0b0b0;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .tech-item {
+            padding: 4px 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            font-size: 14px;
+        }
+        
+        .project-impact {
+            font-size: 16px;
+            font-style: italic;
+            color: #a5b4fc;
+        }
+        
+        .achievements-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        
+        .achievement-card {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .achievement-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(165, 180, 252, 0.15);
+            border-radius: 50%;
+        }
+        
+        .achievement-icon i {
+            font-size: 30px;
+            color: #a5b4fc;
+        }
+        
+        .achievement-text {
+            flex: 1;
+        }
+        
+        .achievement-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .achievement-description {
+            font-size: 16px;
+            color: #b0b0b0;
+        }
+        
+        .contact-content {
+            text-align: center;
+        }
+        
+        .cta {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: #ffffff;
+        }
+        
+        .brand-statement {
+            font-size: 18px;
+            font-style: italic;
+            margin: 24px 0;
+            color: #b0b0b0;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 24px;
+        }
+        
+        .social-link {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background: rgba(165, 180, 252, 0.15);
+            transform: translateY(-4px);
+        }
+        
+        .social-link i {
+            font-size: 24px;
+            color: #a5b4fc;
+        }
+        
+        .highlight {
+            background: linear-gradient(90deg, rgba(165, 180, 252, 0.3), rgba(165, 180, 252, 0.1));
+            padding: 0 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster-container">
+        <div class="bg-grid"></div>
+        <div class="bg-accent"></div>
+        <div class="bg-accent"></div>
+        
+        <div class="content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1>Srijan Guchhait</h1>
+                <div class="subtitle">Multi-Domain Developer</div>
+                <p class="tagline">Independent multi-domain developer and maker who builds across software, AI, and hardware</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="material-icons">email</i>
+                        <span>srijan.guchhait@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="material-icons">phone</i>
+                        <span>+91 8100665928</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="material-icons">code</i>
+                        <span>qwertystars</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="material-icons">business</i>
+                        <span>LinkedIn</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="material-icons">alternate_email</i>
+                        <span>@srijan-guchhait</span>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About Section -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="material-icons">person</i>
+                    About Me
+                </h2>
+                <div class="about-content">
+                    <p class="bio">
+                        1st Year BTech student in Computer Science and Engineering at VIT Chennai. I'm a <span class="highlight">builder, learner, and problem solver</span> with expertise across multiple domains. I take time for perfection and mastery, and I'm comfortable with both software and hardware - from APIs to circuits.
+                    </p>
+                    
+                    <div class="traits">
+                        <div class="trait">Builder</div>
+                        <div class="trait">Learner</div>
+                        <div class="trait">Problem Solver</div>
+                        <div class="trait">Developer</div>
+                        <div class="trait">AI Enthusiast</div>
+                        <div class="trait">Hardware Hacker</div>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3><i class="material-icons">storage</i> Backend Development</h3>
+                            <div class="skill-list">
+                                <div class="skill-item">Python</div>
+                                <div class="skill-item">FastAPI</div>
+                                <div class="skill-item">PostgreSQL</div>
+                                <div class="skill-item">RESTful APIs</div>
+                                <div class="skill-item">Microservices</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="material-icons">psychology</i> AI & Machine Learning</h3>
+                            <div class="skill-list">
+                                <div class="skill-item">Ollama</div>
+                                <div class="skill-item">LM Studio</div>
+                                <div class="skill-item">OpenAI APIs</div>
+                                <div class="skill-item">NLP</div>
+                                <div class="skill-item">Computer Vision</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="material-icons">memory</i> Hardware & IoT</h3>
+                            <div class="skill-list">
+                                <div class="skill-item">ESP32</div>
+                                <div class="skill-item">Arduino</div>
+                                <div class="skill-item">Raspberry Pi</div>
+                                <div class="skill-item">ADXL345</div>
+                                <div class="skill-item">Sensors</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="material-icons">build</i> Development Tools</h3>
+                            <div class="skill-list">
+                                <div class="skill-item">Git</div>
+                                <div class="skill-item">GitHub</div>
+                                <div class="skill-item">Linux</div>
+                                <div class="skill-item">Open Source</div>
+                                <div class="skill-item">Rapid Prototyping</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Projects Section -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="material-icons">rocket_launch</i>
+                    Projects
+                </h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">HireSight - AI-Powered Hiring Platform</h3>
+                            <div class="project-type">🥈 2nd Place Winner</div>
+                        </div>
+                        <p class="project-description">
+                            Mass candidate evaluation system where companies can upload files in bulk and rank candidates based on resume analysis, GitHub repository code quality check, and overall coding capability assessment.
+                        </p>
+                        <div class="tech-stack">
+                            <div class="tech-item">Python</div>
+                            <div class="tech-item">FastAPI</div>
+                            <div class="tech-item">PostgreSQL</div>
+                            <div class="tech-item">Machine Learning</div>
+                            <div class="tech-item">GitHub API</div>
+                        </div>
+                        <p class="project-impact">Enables efficient processing of hundreds of candidates</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Sentilytics - Government Feedback Analysis</h3>
+                            <div class="project-type">Hackathon Entry</div>
+                        </div>
+                        <p class="project-description">
+                            Platform that allows governments to accept many citizen suggestions at scale, perform sentiment analysis on feedback, identify exactly where issues exist in legislation, and enable data-driven policy improvements.
+                        </p>
+                        <div class="tech-stack">
+                            <div class="tech-item">Python</div>
+                            <div class="tech-item">FastAPI</div>
+                            <div class="tech-item">NLP</div>
+                            <div class="tech-item">Sentiment Analysis</div>
+                        </div>
+                        <p class="project-impact">Helps governments process citizen feedback at scale</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">AgriDisease Detector - Plant Disease ID</h3>
+                            <div class="project-type">AgriTech Solution</div>
+                        </div>
+                        <p class="project-description">
+                            Agricultural application where users can upload pictures of potato leaves, get disease identification, and receive pesticide recommendations for treatment.
+                        </p>
+                        <div class="tech-stack">
+                            <div class="tech-item">Python</div>
+                            <div class="tech-item">Computer Vision</div>
+                            <div class="tech-item">CNN</div>
+                            <div class="tech-item">Image Classification</div>
+                        </div>
+                        <p class="project-impact">Empowers farmers with instant disease diagnosis</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Smart Irrigation System - IoT Automation</h3>
+                            <div class="project-type">Hardware Project</div>
+                        </div>
+                        <p class="project-description">
+                            Automated watering system that monitors soil moisture levels, activates pump at specific times when moisture is low, and conserves water through intelligent automation.
+                        </p>
+                        <div class="tech-stack">
+                            <div class="tech-item">Arduino</div>
+                            <div class="tech-item">Soil Moisture Sensors</div>
+                            <div class="tech-item">Relay Control</div>
+                            <div class="tech-item">Automated Timing</div>
+                        </div>
+                        <p class="project-impact">Water conservation, efficient agriculture automation</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Structural Integrity Monitor</h3>
+                            <div class="project-type">Work in Progress</div>
+                        </div>
+                        <p class="project-description">
+                            Infrastructure monitoring system that reads data from ADXL345 accelerometer via ESP32, tracks structural damage over time, creates damage timeline, and calculates when and where to repair.
+                        </p>
+                        <div class="tech-stack">
+                            <div class="tech-item">ESP32</div>
+                            <div class="tech-item">ADXL345</div>
+                            <div class="tech-item">Sensor Fusion</div>
+                            <div class="tech-item">Data Analysis</div>
+                        </div>
+                        <p class="project-impact">Predictive maintenance, infrastructure safety</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Achievements Section -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="material-icons">emoji_events</i>
+                    Achievements
+                </h2>
+                <div class="achievements-content">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="material-icons">military_tech</i>
+                        </div>
+                        <div class="achievement-text">
+                            <h3 class="achievement-title">Hackathon Experience</h3>
+                            <p class="achievement-description">5 major hackathons with team sizes of 2-4 people, rapid development under pressure</p>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="material-icons">workspace_premium</i>
+                        </div>
+                        <div class="achievement-text">
+                            <h3 class="achievement-title">🥈 2nd Place Win</h3>
+                            <p class="achievement-description">HireSight project - Won 2nd place at hackathon for AI-powered hiring platform</p>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="material-icons">speed</i>
+                        </div>
+                        <div class="achievement-text">
+                            <h3 class="achievement-title">Competition Skills</h3>
+                            <p class="achievement-description">Rapid prototyping (24-48 hour cycles), team collaboration, production-grade development</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="material-icons">contact_mail</i>
+                    Let's Connect
+                </h2>
+                <div class="contact-content">
+                    <div class="cta">Let's build something amazing together</div>
+                    <p class="brand-statement">
+                        "I build things across software and hardware because I love solving problems and learning new tech. From AI-powered hiring platforms to potato leaf disease detectors to structural monitoring systems - I'm a maker who explores every domain that catches my curiosity."
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="mailto:srijan.guchhait@gmail.com" class="social-link">
+                            <i class="material-icons">email</i>
+                        </a>
+                        <a href="https://github.com/qwertystars" class="social-link">
+                            <i class="material-icons">code</i>
+                        </a>
+                        <a href="https://linkedin.com/in/srijan-guchhait" class="social-link">
+                            <i class="material-icons">business</i>
+                        </a>
+                        <a href="https://twitter.com/srijan-guchhait" class="social-link">
+                            <i class="material-icons">alternate_email</i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
