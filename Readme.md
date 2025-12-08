@@ -67,29 +67,6 @@ i<!-- Profile Header -->
 
 ---
 
-<!-- GitHub Stats -->
-## 📊 My GitHub Stats  
-
-<p align="center">
-  <a href="https://www.github.com/qwertystars">
-    <img src="https://github-readme-stats-phi-three-cuzwv4cud7.vercel.app/api?username=qwertystars&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="qwertystars's GitHub stats" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.github.com/qwertystars">
-    <img src="https://github-readme-streak-stats-six-flax.vercel.app?user=qwertystars&theme=dark" alt="GitHub Streak" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/qwertystars">
-    <img src="https://github-readme-stats-phi-three-cuzwv4cud7.vercel.app/api/top-langs/?username=qwertystars&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
-  </a>
-</p> 
-
----
-
 <!-- Connect Section -->
 ## 🌐 Connect With Me  
 <p align="left">
