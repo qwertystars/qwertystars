@@ -1,4 +1,4 @@
-i<!-- Profile Header -->
+<!-- Profile Header -->
 <!-- Typing effect header -->
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=2500&pause=700&color=00E676&center=true&vCenter=true&width=1100&height=120&lines=Hi%2C+I%27m+Srijan+Guchhait+%F0%9F%91%8B;CSE+Core+Student+%40+VIT+Chennai;Systems+%7C+AI%2FML+%7C+Open-Source;Arch+Linux+%7C+Btrfs+%7C+DevOps;Ubuntu+%C2%B7+Ollama+%C2%B7+JetBrains)
 
