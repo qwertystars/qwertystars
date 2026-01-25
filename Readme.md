@@ -1,54 +1,32 @@
 <!-- ========================= -->
-<!-- Hero / Identity -->
+<!-- Hero -->
 <!-- ========================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com
-  ?font=JetBrains+Mono
-  &size=28
-  &duration=2500
-  &pause=700
-  &color=00E676
-  &center=true
-  &vCenter=true
-  &width=1000
-  &height=120
-  &lines=Hi%2C+I%27m+Srijan+Guchhait;Computer+Science+%7C+Systems+%26+Infra;Low-level+%7C+AI%2FML+%7C+Open+Source;Arch+Linux+%7C+DevOps+%7C+Builders+Mindset" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=2500&pause=700&color=00E676&center=true&vCenter=true&width=1000&height=120&lines=Hi%2C+I%27m+Srijan+Guchhait;Computer+Science+%7C+Systems+Engineering;Low-level+%7C+Infrastructure+%7C+AI+Tooling;Arch+Linux+%7C+DevOps+Mindset" />
 </p>
 
 <p align="center">
-  <strong>CSE Core Student @ VIT Chennai</strong><br/>
-  Systems • Infrastructure • Applied AI • Open Source
+  <strong>Computer Science (Core) @ VIT Chennai</strong><br/>
+  Systems • Backend • Infrastructure • Applied AI
 </p>
 
 ---
-
-<!-- ========================= -->
-<!-- About -->
-<!-- ========================= -->
 
 ## About
 
-I am a Computer Science (Core) undergraduate at **VIT Chennai** with a strong bias toward **systems-level thinking and practical engineering**.
+I am a Computer Science (Core) undergraduate focused on **how software behaves at the system level**.
 
-I enjoy:
-- Writing code close to the metal
-- Understanding how systems fail and how to harden them
-- Building things that actually run, not just demos
+I care about:
+- how abstractions are built and where they leak  
+- performance, reliability, and debuggability  
+- deploying systems that actually run  
 
-Current focus areas:
-- Systems programming and OS-level concepts  
-- Backend engineering and infrastructure  
-- AI/ML tooling, deployment, and pipelines  
-- Linux-based development environments  
+I prefer **practical engineering** over theoretical noise.
 
 ---
 
-<!-- ========================= -->
-<!-- Tech Stack -->
-<!-- ========================= -->
-
-## Tech Stack
+## Technical Focus
 
 ### Languages
 - C  
@@ -56,13 +34,17 @@ Current focus areas:
 - Python  
 - Java  
 
-### Systems, Backend, and Tooling
+### Systems and Backend
+- Linux (Arch, Ubuntu)  
 - Git  
 - Docker  
 - FastAPI  
 - Firebase  
+
+### AI / ML Tooling
 - TensorFlow  
 - Hugging Face  
+- Local inference and deployment pipelines  
 
 ### Databases
 - PostgreSQL  
@@ -72,57 +54,30 @@ Current focus areas:
 ### Cloud and DevOps
 - Google Cloud Platform  
 - Microsoft Azure  
-- Linux (Arch, Ubuntu)  
 
-### Hardware and Embedded
+### Embedded and Hardware
 - Arduino  
 - Raspberry Pi  
 
 ---
 
-<!-- ========================= -->
-<!-- GitHub Stats -->
-<!-- ========================= -->
-
 ## GitHub Activity
 
 <div align="center">
-  <img height="180"
-       src="https://github-readme-stats-drab-seven-18.vercel.app/api
-       ?username=YOUR_USERNAME
-       &show_icons=true
-       &theme=transparent
-       &hide_border=true
-       &include_all_commits=true
-       &rank_icon=github" />
-
-  <img height="180"
-       src="https://github-readme-stats-drab-seven-18.vercel.app/api/top-langs
-       ?username=YOUR_USERNAME
-       &layout=compact
-       &theme=transparent
-       &hide_border=true
-       &langs_count=8" />
+  <img height="180" src="https://github-readme-stats-drab-seven-18.vercel.app/api?username=qwertystars&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=github" />
+  <img height="180" src="https://github-readme-stats-drab-seven-18.vercel.app/api/top-langs?username=qwertystars&layout=compact&theme=transparent&hide_border=true&langs_count=8" />
 </div>
 
 ---
 
-<!-- ========================= -->
-<!-- Philosophy -->
-<!-- ========================= -->
+## Engineering Principles
 
-## Engineering Philosophy
-
-- Prefer clarity over cleverness  
 - Understand the system before abstracting it  
+- Prefer clarity over cleverness  
 - Measure before optimizing  
 - If it cannot be debugged, it is not finished  
 
 ---
-
-<!-- ========================= -->
-<!-- Connect -->
-<!-- ========================= -->
 
 ## Connect
 
