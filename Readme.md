@@ -64,8 +64,8 @@ I prefer **practical engineering** over theoretical noise.
 ## GitHub Activity
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats-drab-seven-18.vercel.app/api?username=qwertystars&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=github" />
-  <img height="180" src="https://github-readme-stats-drab-seven-18.vercel.app/api/top-langs?username=qwertystars&layout=compact&theme=transparent&hide_border=true&langs_count=8" />
+  <img height="180" src="https://github-readme-stats-git-master-qwertystars-projects.vercel.app/api?username=qwertystars&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=github" />
+  <img height="180" src="https://github-readme-stats-git-master-qwertystars-projects.vercel.app/api/top-langs?username=qwertystars&layout=compact&theme=transparent&hide_border=true&langs_count=8" />
 </div>
 
 ---
