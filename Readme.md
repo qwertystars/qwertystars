@@ -134,16 +134,6 @@ me.say_hi()
 
 ---
 
-## 💡 Random Dev Quote
-
-<div align="center">
-
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <div align="center">
