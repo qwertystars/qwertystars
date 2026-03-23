@@ -113,7 +113,7 @@ me.say_hi()
 </table>
 
 ---
-📊 LeetCode: 
+## 📊 LeetCode: 
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/fAa2wwmTWj?theme=dark&font=Montserrat&ext=contest)](https://leetcode.com/fAa2wwmTWj/)
 
