@@ -113,14 +113,9 @@ me.say_hi()
 </table>
 
 ---
+📊 LeetCode: 
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=qwertystars&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7)
-
-</div>
+[![LeetCode Stats](https://leetcard.jacoblin.cool/fAa2wwmTWj?theme=dark&font=Montserrat&ext=contest)](https://leetcode.com/fAa2wwmTWj/)
 
 ---
 
