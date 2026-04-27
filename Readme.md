@@ -7,7 +7,7 @@
 <h3>Computer Science Core Student | VIT Chennai | Tech Enthusiast</h3>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srijan-guchhait)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srijan.guchhait@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srijan@guchhait.org)
 
 </div>
 
@@ -42,10 +42,6 @@ me.say_hi()
 ## 📊 GitHub Stats
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats-qwertystars-projects.vercel.app/api?username=qwertystars&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00E676&icon_color=00E676&text_color=FFFFFF&count_private=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats-qwertystars-projects.vercel.app/api/top-langs/?username=qwertystars&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00E676&text_color=FFFFFF&langs_count=8)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=qwertystars&theme=radical&hide_border=true&background=0D1117&stroke=00E676&ring=00E676&fire=FF6D00&currStreakLabel=00E676)
 
@@ -115,7 +111,11 @@ me.say_hi()
 ---
 ## 📊 LeetCode: 
 
+<div align="center">
+
 [![LeetCode Stats](https://leetcard.jacoblin.cool/fAa2wwmTWj?theme=dark&font=Montserrat&ext=contest)](https://leetcode.com/fAa2wwmTWj/)
+
+</div>
 
 ---
 
@@ -124,6 +124,14 @@ me.say_hi()
 <div align="center">
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=qwertystars&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E676&line=00E676&point=FFFFFF)
+
+</div>
+
+---
+
+<div align="center">
+
+[![Tokscale Stats](https://tokscale.ai/api/embed/qwertystars/svg)](https://tokscale.ai/u/qwertystars)
 
 </div>
 
