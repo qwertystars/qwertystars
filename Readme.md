@@ -73,10 +73,6 @@
 <h2>GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=qwertystars&theme=radical&hide_border=true"/>
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=qwertystars&theme=react-dark&hide_border=true"/>
 </p>
 
@@ -94,11 +90,7 @@
 
 <h2>Extras</h2>
 
-<p align="center">
-  <a href="https://tokscale.ai/u/qwertystars">
-    <img src="https://tokscale.ai/api/embed/qwertystars/svg"/>
-  </a>
-</p>
+[![Tokscale Stats](https://tokscale.ai/api/embed/qwertystars/svg?template=minimal&color=YlGnBu&graph=1&rank=total&tokens=full&cost=compact)](https://tokscale.ai/u/qwertystars)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=qwertystars&color=00E676&style=for-the-badge"/>
